@@ -3,8 +3,8 @@
 ## CLI
 
 files:
-      * /edward.py
-      * /somefile.txt
+      */edward.py
+      */somefile.txt
 
 somefile.txt:  wweddaadwaffrdnn
  
