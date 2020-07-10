@@ -2,16 +2,20 @@ import argparse
 import re
 
 class Encryptor:
-    def __init__(self,filename):
-        self.context=self.read_file(filename=filename)
+    def __init__(self,file_name):
+        self.context=self.read_file(filename=file_name)
         self.data =  self.delete_double_letters(self.context)
 
     def return_decrypt_message(self)->str:
+        """
+        this function returns a decrypted message
+        :return: decrypted message
+        """
         return self.data
 
     def read_file(self,filename:str)->str:
         """
-        [EN] This function return the content of the file.
+        [EN] This function returns the content of the file.
         [RU] Эта функция возвращает содержимое файла. filename - имя чтиаемого файла
         :param filename: name of file
         :return: content of file
@@ -34,8 +38,8 @@ class Encryptor:
 
 class Main:
     def __init__(self):
-        parser = argparse.ArgumentParser(description='File encryptor')
-        parser.add_argument('file', type=str, help='path or file name')
+        parser = argparse.ArgumentParser(description='Message Decoder [for Edward :)]')
+        parser.add_argument('file',type=str,help='write path or file name')
         args = parser.parse_args()
         result = Encryptor(args.file)
         print(result.return_decrypt_message())
