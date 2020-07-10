@@ -3,26 +3,26 @@
 ## CLI
 
 files:
-      /edward.py
-      /somefile.txt
+      * /edward.py
+      * /somefile.txt
 
 somefile.txt:  wweddaadwaffrdnn
  
 run:
-~$ python edward.py somefile.txt
-edward
+* ~$ python edward.py somefile.txt
+* edward
 
 ## GUI
 
 PyQT5 library must be installed
 
 files:
-      /img/icon.ico
-      /app_design.py
-      /decoder.py
+      * /img/icon.ico
+      * /app_design.py
+      * /decoder.py
       
 run:
-~$ python decoder.py
+* ~$ python decoder.py
 
 ## TESTS
 
