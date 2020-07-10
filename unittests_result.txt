@@ -1,0 +1,11 @@
+test_001_simple (unittests.EdwardTestCase) ... ok
+test_002_big_file (unittests.EdwardTestCase) ... ok
+test_003_error_file_name (unittests.EdwardTestCase) ... ok
+test_004_empty_file (unittests.EdwardTestCase) ... ok
+test_005_normal_file (unittests.EdwardTestCase) ... ok
+test_006_three_identical_letters (unittests.EdwardTestCase) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.029s
+
+OK

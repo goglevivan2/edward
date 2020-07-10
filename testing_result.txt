@@ -4,11 +4,11 @@ cachedir: .pytest_cache
 rootdir: D:\edwardproject
 collecting ... collected 6 items
 
-tests.py::test_case_001_simple PASSED                                    [ 16%]
-tests.py::test_case_002_big_file PASSED                                  [ 33%]
-tests.py::test_case_003_error_file_name PASSED                           [ 50%]
-tests.py::test_case_004_empty_file PASSED                                [ 66%]
-tests.py::test_case_005_normal_file PASSED                               [ 83%]
-tests.py::test_case_006_three_identical_letters PASSED                   [100%]
+tests.py::test_001_simple PASSED                                         [ 16%]
+tests.py::test_002_big_file PASSED                                       [ 33%]
+tests.py::test_003_error_file_name PASSED                                [ 50%]
+tests.py::test_004_empty_file PASSED                                     [ 66%]
+tests.py::test_005_normal_file PASSED                                    [ 83%]
+tests.py::test_006_three_identical_letters PASSED                        [100%]
 
-============================== 6 passed in 0.08s ==============================
+============================== 6 passed in 0.05s ==============================
