@@ -1,4 +1,4 @@
-# Decrypting program for Edward 
+# Program for Edward 
 
 ## CLI
 
